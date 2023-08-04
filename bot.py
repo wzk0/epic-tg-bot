@@ -1,7 +1,7 @@
 import telebot
 from epic import get_xi as xii
 
-API_TOKEN='5713796241:AAFfyTWFYAj7F3Ea-P0ly6W7xeYkYeuvqZI'
+API_TOKEN='这里写token'
 bot=telebot.TeleBot(API_TOKEN,parse_mode='MARKDOWN')
 
 @bot.message_handler(commands=['help','start'])
